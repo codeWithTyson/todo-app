@@ -1,0 +1,17 @@
+.todo {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.todo:first-child {
+    margin-top: 30px;
+}
+.todo-trash {
+    float: right;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.todo-trash:hover {
+    color: rgb(182, 182, 182);
+}

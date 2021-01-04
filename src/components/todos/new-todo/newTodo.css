@@ -1,0 +1,26 @@
+form {
+    width: 100%;
+    display: flex;
+    margin: 1.4em auto 2em;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="submit"]{
+    border: none;
+    outline: none;
+    border: 1px solid #BDBDBD;
+    color: #BDBDBD;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    flex-basis: 80%;
+}
+
+input[type="submit"] {
+    flex-basis: 17%;
+    color: #fff;
+    background: #2F80ED;
+    cursor: pointer;
+    border-radius: 8px;
+}

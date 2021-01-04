@@ -1,0 +1,26 @@
+.MuiAppBar-colorDefault {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.del-btn {
+  float: right;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #eb5757;
+  color: #fff;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.del-btn:hover {
+  background-color: #d14747;
+  color: #fff;
+}
