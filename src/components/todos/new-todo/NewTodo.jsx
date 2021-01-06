@@ -19,6 +19,7 @@ const NewTodo = () => {
     <form onSubmit={newTodo}>
       <input
         type="text"
+        required
         placeholder="add details"
         value={todoText}
         onChange={(e) => setTodoText(e.target.value)}
